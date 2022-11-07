@@ -12,7 +12,7 @@ import deved from "../public/dev-ed-wave.png";
 const InfoSection = () => {
   return (
     <div>
-      <div className="p-10 text-center">
+      <div className="pt-5 text-center">
         <h2 className="text-5xl py-2 text-teal-600 font-medium">
           Estevan Rodriguez
         </h2>

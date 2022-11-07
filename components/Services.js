@@ -23,7 +23,7 @@ const Services = () => {
           programming and teaching.
         </p>
       </div>
-      <div>
+      <div className="lg:flex gap-10">
         <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10">
           <Image src={design} width={100} height={100} />
           <h3 className="text-large pt-8 pb-2 font-medium">
