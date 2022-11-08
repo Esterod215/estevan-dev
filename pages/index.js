@@ -3,8 +3,8 @@ import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 import InfoSection from "../components/InfoSection";
-import Services from "../components/Services";
-import Portfolio from "../components/Portfolio";
+import Projects from "../components/Projects";
+import About from "../components/About";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -22,11 +22,12 @@ export default function Home() {
           <InfoSection />
         </section>
 
-        <section>
-          <Services />
+        <section className="py-3">
+          <About />
         </section>
-        <section>
-          <Portfolio />
+
+        <section className="py-2">
+          <Projects />
         </section>
       </main>
     </div>
