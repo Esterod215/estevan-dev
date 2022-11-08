@@ -16,12 +16,13 @@ const InfoSection = () => {
         <h2 className="text-5xl py-2 text-teal-600 font-medium">
           Estevan Rodriguez
         </h2>
-        <h3 className="text-2xl py-2">Full Stack Web Developer</h3>
-        <p className="text-medium py-5 leading-8 text-gray-800">
-          Hello my name is Estevan Rodriguez
+        <h3 className="text-3xl py-2 dark:text-white">Software Engineer</h3>
+        <p className="text-xl py-5 leading-8 text-gray-800 font-dancingScript dark:text-gray-50">
+          "The two most important days in your life are the day you're born, and
+          the day you find out why" <br /> -Mark Twain
         </p>
       </div>
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
         <a href="#">
           <AiFillTwitterCircle />
         </a>

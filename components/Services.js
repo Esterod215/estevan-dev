@@ -23,8 +23,8 @@ const Services = () => {
           programming and teaching.
         </p>
       </div>
-      <div className="lg:flex gap-10">
-        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10">
+      <div className="lg:flex justify-center gap-10">
+        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
           <Image src={design} width={100} height={100} />
           <h3 className="text-large pt-8 pb-2 font-medium">
             Beautiful Designs
@@ -35,7 +35,7 @@ const Services = () => {
           <p className="text-gray-800 py-1">Photoshop</p>
           <p className="text-gray-800 py-1">Photoshop</p>
         </div>
-        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10">
+        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
           <Image src={code} width={100} height={100} />
           <h3 className="text-large pt-8 pb-2 font-medium">
             Beautiful Designs
@@ -46,7 +46,7 @@ const Services = () => {
           <p className="text-gray-800 py-1">Photoshop</p>
           <p className="text-gray-800 py-1">Photoshop</p>
         </div>
-        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10">
+        <div className="text-center flex flex-col items-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
           <Image src={consulting} width={100} height={100} />
           <h3 className="text-large pt-8 pb-2 font-medium">
             Beautiful Designs

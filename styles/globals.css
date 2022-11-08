@@ -23,3 +23,8 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+@font-face {
+  font-family: "dancingScript";
+  src: url("../public/DancingScript.ttf");
+}

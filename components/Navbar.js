@@ -4,8 +4,8 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const Navbar = ({ dark, setDark }) => {
   return (
-    <nav className="py-10 flex justify-between">
-      <h1 className="text-xl font-burtons">Estevan Rodriguez</h1>
+    <nav className="py-10 flex justify-between dark:text-white">
+      <h1 className="text-xl font-burtons">Estevan.Dev</h1>
       <ul className="flex items-center">
         <li>
           <BsFillMoonStarsFill
