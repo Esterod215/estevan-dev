@@ -14,7 +14,7 @@ const About = () => {
         difference in people's lives and always looking for ways to better
         myself personally and professionally.
         <span className="text-teal-500 text-medium pl-1 cursor-pointer capitalize">
-          lets connect!
+          <a href="mailto:estevan.rodriguez215@gmail.com">Connect With Me! </a>
         </span>
       </p>
     </div>

@@ -5,9 +5,11 @@ import Navbar from "../components/Navbar";
 import InfoSection from "../components/InfoSection";
 import Projects from "../components/Projects";
 import About from "../components/About";
+import Skills from "../components/Skills";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -26,7 +28,11 @@ export default function Home() {
           <About />
         </section>
 
-        <section className="py-2">
+        <section className="py-3">
+          <Skills />
+        </section>
+
+        <section className="py-3">
           <Projects />
         </section>
       </main>

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div>
       <div>
-        <h3 className="text-3xl py-1 dark:text-white ">Check Out My Work</h3>
+        <h3 className="text-3xl dark:text-white ">Check Out Some Of My Work</h3>
       </div>
       <div className="lg:flex justify-center gap-5">
         <a
