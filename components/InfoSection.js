@@ -1,10 +1,6 @@
 import React from "react";
 
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
@@ -23,14 +19,11 @@ const InfoSection = () => {
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-        <a href="#">
-          <AiFillTwitterCircle />
+        <a href="https://github.com/Esterod215">
+          <AiFillGithub />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/estevanr215/">
           <AiFillLinkedin />
-        </a>
-        <a href="#">
-          <AiFillYoutube />
         </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
